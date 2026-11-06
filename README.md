@@ -186,6 +186,7 @@ S:directCapeUrl=https://example.com/capes/{username}.png
 - [Development, generated constants and dependency remapping](docs/DEVELOPMENT.md)
 - [Compatibility and migration notes](docs/COMPATIBILITY.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Changelog](CHANGELOG.md)
 
 ## License
 

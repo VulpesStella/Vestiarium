@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven { url = uri(providers.gradleProperty('retrospectumMavenUrl').getOrElse('https://maven.desiderium.dev/releases/')) }
+        maven { url = 'https://maven.fabricmc.net/' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+    plugins {
+        id 'dev.desiderium.retro.loom' version providers.gradleProperty('loom_version').getOrElse('0.1.0')
+    }
+    def checkout = providers.gradleProperty('retrospectumLoomCheckout').orNull
+    if (checkout) includeBuild(checkout)
+}
+rootProject.name = 'example-mod'

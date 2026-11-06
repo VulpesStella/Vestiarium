@@ -2,9 +2,14 @@
   "required": true,
   "minVersion": "0.8.7",
   "target": "@env(DEFAULT)",
-  "package": "example.mixin",
+  "package": "io.github.vulpesstella.vestiarium.mixin",
   "compatibilityLevel": "JAVA_6",
   "refmap": "${mixin_refmap}",
-  "mixins": ["WorldMixin"],
+  "mixins": [],
+  "client": [
+    "AbstractClientPlayerMixin",
+    "RenderPlayerMixin",
+    "RendererLivingEntityAccessor"
+  ],
   "injectors": { "defaultRequire": 1 }
 }

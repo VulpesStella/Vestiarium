@@ -186,11 +186,17 @@ S:directCapeUrl=https://example.com/capes/{username}.png
 - [Development, generated constants and dependency remapping](docs/DEVELOPMENT.md)
 - [Compatibility and migration notes](docs/COMPATIBILITY.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Third-party notices](THIRD_PARTY_NOTICES.md)
 - [Changelog](CHANGELOG.md)
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Vestiarium is licensed under the GNU Lesser General Public License v3.0.
+See [LICENSE](LICENSE).
+
+The project is derived from the MIT-licensed Retrospectum Mod Template;
+upstream notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The bundled fallback skin is an original project asset.
 
 ---
 
@@ -224,3 +230,4 @@ Vestiarium 为 Forge 1.6.4 带来现代 64x64 皮肤（支持 slim 细手臂）�
 
 - 编译：`./setup.ps1` 后执行 `./build.ps1 build`；产物在 `build/libs/`。
 - 这是客户端模组，需要与 Retrospectum Mixin 一起安装。
+- 许可证：GNU Lesser General Public License v3.0（LGPL-3.0）。

@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Release JAR now uses the standard `MixinConfigs` manifest attribute.
 - Generated `BuildConstants` replace source-token expansion for mod metadata.
 - Setup records local JDK paths in `gradle.local.properties`.
+- Relicensed under the GNU Lesser General Public License v3.0.
 
 [Unreleased]: https://github.com/VulpesStella/Vestiarium/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/VulpesStella/Vestiarium/releases/tag/v0.1.0
